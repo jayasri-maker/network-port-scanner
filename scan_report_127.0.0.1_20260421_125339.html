@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Port Scan Report</title>
+<style>
+body { font-family: Arial; background: #1a1a2e; color: #eee; padding: 20px; }
+h1 { color: #00d4ff; }
+table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+th { background: #00d4ff; color: #000; padding: 10px; }
+td { padding: 10px; border-bottom: 1px solid #333; }
+tr:hover { background: #16213e; }
+.open { color: #00ff88; font-weight: bold; }
+.info { background: #16213e; padding: 15px; border-radius: 8px; margin: 10px 0; }
+</style>
+</head>
+<body>
+<h1>Network Port Scanner Report</h1>
+<div class='info'>
+<p><b>Target:</b> 127.0.0.1</p>
+<p><b>Port Range:</b> 1 - 500</p>
+<p><b>Scan Time:</b> 2026-04-21 12:53:39.537019</p>
+<p><b>Open Ports:</b> 2</p>
+</div>
+<table>
+<tr><th>Port</th><th>Status</th><th>Service</th><th>Banner</th></tr>
+<tr><td>135</td><td class='open'>OPEN</td><td>RPC</td><td>N/A</td></tr><tr><td>445</td><td class='open'>OPEN</td><td>SMB</td><td>N/A</td></tr>
+</table>
+</body>
+</html>
