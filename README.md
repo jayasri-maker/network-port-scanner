@@ -43,7 +43,7 @@
   ## 👤 Author
   
   **Jayasri S**  
-  Cyber Security Student | SKCAS, Coimbatore
+  Cyber Security Student | SRCAS, Coimbatore
   
   ## ⚠️ Disclaimer
   
